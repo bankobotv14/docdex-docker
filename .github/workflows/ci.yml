@@ -1,0 +1,25 @@
+name: Docs Server CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Publish Docker image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true
+      - name: Login
+        env:
+          GITHUB_TOKEN: ${{ secrets.WHATEVER }}
+        run:  docker login ghcr.io --username phanatic --password "$GITHUB_TOKEN"
+      - name: Bild & Guten Tag
+        run:  docker build -t ghcr.io/bankobotv14/docdexdocker:latest .
+      - name: push
+        run:  docker push ghcr.io/bankobotv14/docdexdocker:latest
+       
+      

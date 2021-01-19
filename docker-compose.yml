@@ -1,0 +1,18 @@
+version: "3.1"
+
+services:
+  database:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=docdex
+      - MONGO_INITDB_ROOT_PASSWORD=DoCdEx
+      - MONGO_INITDB_DATABASE=docdex
+  app:
+    image: ghcr.io/bankobotv14/docdexdocker:latest
+    ports:
+      - 127.0.0.1:8800:8800
+    volumes:
+      - ./config.json:/usr/app/config.json
+      - ./docs:/usr/app/docs
+    depends_on:
+      - database

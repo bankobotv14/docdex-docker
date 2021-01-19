@@ -1,0 +1,3 @@
+[submodule "DocDex"]
+	path = DocDex
+	url = https://github.com/PiggyPiglet/DocDex.git
