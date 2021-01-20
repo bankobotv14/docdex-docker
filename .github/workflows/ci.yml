@@ -17,9 +17,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.WHATEVER }}
         run:  docker login ghcr.io --username phanatic --password "$GITHUB_TOKEN"
-      - name: Bild & Guten Tag
-        run:  docker build -t ghcr.io/bankobotv14/docdexdocker:latest .
-      - name: push
-        run:  docker push ghcr.io/bankobotv14/docdexdocker:latest
+      - name: Build & Tag
+        run:  docker build -t ghcr.io/bankobotv14/docdexdocker:latest -t ghcr.io/bankobotv14/docdexdocker:"$GITHUB_SHA".
+      - name: Push
+        run:  docker push ghcr.io/bankobotv14/docdexdocker:latest --all-tags
        
       

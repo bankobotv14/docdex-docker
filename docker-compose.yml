@@ -6,7 +6,10 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=docdex
       - MONGO_INITDB_ROOT_PASSWORD=DoCdEx
-      - MONGO_INITDB_DATABASE=docdex
+      - MONGO_INITDB_DATABASE=docdex#
+  mirror:
+    image: danjellz/http-server
+    volumes: ./doc-mirror:/public
   app:
     image: ghcr.io/bankobotv14/docdexdocker:latest
     ports:
@@ -16,3 +19,4 @@ services:
       - ./docs:/usr/app/docs
     depends_on:
       - database
+      - mirror

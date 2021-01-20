@@ -12,28 +12,28 @@
   
     "javadocs": [
       {
-        "names": ["jdk", "jdk11"],
-        "link": "https://docs.oracle.com/en/java/javase/11/docs/api",
-        "actual_link": "https://docs.oracle.com/en/java/javase/11/docs/api"
+        "names": ["jdk", "jdk15", "jdk-latest"],
+        "link": "http://mirror/jdk15",
+        "actual_link": "https://docs.oracle.com/en/java/javase/15/docs/api"
       },
       {
         "names": ["jdk8"],
-        "link": "https://docs.oracle.com/javase/8/docs/api",
+        "link": "http://mirror/jdk8",
         "actual_link": "https://docs.oracle.com/javase/8/docs/api"
       },
       {
           "names": ["jda"],
-          "link": "https://ci.dv8tion.net/job/JDA/javadoc/",
+          "link": "http://mirror/jda/",
           "actual_link": "https://ci.dv8tion.net/job/JDA/javadoc/"
       },
       {
-          "name": ["spigot", "spigot-latest", "spigot1164"],
-          "link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html",
+          "name": ["spigot", "spigot-latest", "spigot1165"],
+          "link": "http://mirror/spigot1165/index.html?overview-summary.html",
           "actual_link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html"
       },
       {
           "names": ["spigot188", "1.8.8", "188"],
-          "link": "https://helpch.at/docs/1.8.8/",
+          "link": "http://mirror/spigot188/",
           "actual_link": "https://helpch.at/docs/1.8.8/"
       }
     ]
