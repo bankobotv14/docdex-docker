@@ -14,6 +14,7 @@ You can modify that servers files in the `doc-mirror` directory
 
 # Images
 Docker images can be found here: https://github.com/orgs/bankobotv14/packages/container/package/docdexdocker
+It's recommended to always pull the `latest` tag (for some reason not displayed on tag above)
 
 # Doc Downloads:
 JDK: https://stackoverflow.com/a/6987039/10234040
