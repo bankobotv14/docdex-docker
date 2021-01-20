@@ -12,9 +12,9 @@
   
     "javadocs": [
       {
-        "names": ["jdk", "jdk15", "jdk-latest"],
-        "link": "http://mirror:8080/jdk15",
-        "actual_link": "https://docs.oracle.com/en/java/javase/15/docs/api"
+        "names": ["jdk", "jdk11", "jdk-latest-lts"],
+        "link": "http://mirror:8080/jdk11",
+        "actual_link": "https://docs.oracle.com/en/java/javase/11/docs/api"
       },
       {
         "names": ["jdk8"],
@@ -28,7 +28,7 @@
       },
       {
           "names": ["spigot", "spigot-latest", "spigot1165"],
-          "link": "http://mirror:8080/spigot1165/index.html?overview-summary.html",
+          "link": "http://mirror:8080/spigo-t1165/index.html?overview-summary.html",
           "actual_link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html"
       },
       {
