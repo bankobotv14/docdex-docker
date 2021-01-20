@@ -20,6 +20,6 @@ jobs:
       - name: Build & Tag
         run:  docker build -t ghcr.io/bankobotv14/docdexdocker:latest -t ghcr.io/bankobotv14/docdexdocker:"$GITHUB_SHA" .
       - name: Push
-        run:  docker push ghcr.io/bankobotv14/docdexdocker:latest --all-tags
+        run:  docker push ghcr.io/bankobotv14/docdexdocker:latest ghcr.io/bankobotv14/docdexdocker:"$GITHUB_SHA"
        
       
