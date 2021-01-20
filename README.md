@@ -5,7 +5,7 @@
 - Run `docker-compose up -d`
 
 # Doc mirror server
-To avoid getting ipblocked from doc sites (because of multiple concurrent requests) a mirror sserver is running at `http://mirror` within the Docker container.
+To avoid getting ipblocked from doc sites (because of multiple concurrent requests) a mirror sserver is running at `http://mirror:8080` within the Docker container.
 You can modify that servers files in the `doc-mirror` directory
 
 # Images
