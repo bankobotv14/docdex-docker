@@ -13,5 +13,7 @@ Docker images can be found here: https://github.com/orgs/bankobotv14/packages/co
 
 # Doc Downloads:
 JDK: https://stackoverflow.com/a/6987039/10234040
-Spigot: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/spigot-api-1.16.5-R0.1-20210116.013913-1-javadoc.jar (Replace version if needed)
+
+Spigot: https://hub.spigotmc.org/nexus/content/repositories/snapshots/org/spigotmc/spigot-api/1.16.5-R0.1-SNAPSHOT/
+
 JDA: https://jcenter.bintray.com/net/dv8tion/JDA/4.2.0_227/JDA-4.2.0_227-javadoc.jar

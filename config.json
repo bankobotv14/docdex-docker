@@ -13,12 +13,12 @@
     "javadocs": [
       {
         "names": ["jdk", "jdk11", "jdk-latest-lts"],
-        "link": "http://mirror:8080/jdk11",
+        "link": "http://mirror:8080/jdk11/overview-tree.html",
         "actual_link": "https://docs.oracle.com/en/java/javase/11/docs/api"
       },
       {
         "names": ["jdk8"],
-        "link": "http://mirror:8080/jdk8",
+        "link": "http://mirror:8080/jdk8/overview-tree.html",
         "actual_link": "https://docs.oracle.com/javase/8/docs/api"
       },
       {
@@ -28,13 +28,8 @@
       },
       {
           "names": ["spigot", "spigot-latest", "spigot1165"],
-          "link": "http://mirror:8080/spigo-t1165/index.html?overview-summary.html",
+          "link": "http://mirror:8080/spigo-t1165/overview-tree.html",
           "actual_link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html"
-      },
-      {
-          "names": ["spigot188", "1.8.8", "188"],
-          "link": "http://mirror:8080/spigot188/",
-          "actual_link": "https://helpch.at/docs/1.8.8/"
       }
     ]
   }
