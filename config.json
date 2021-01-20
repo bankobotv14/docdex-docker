@@ -27,7 +27,7 @@
           "actual_link": "https://ci.dv8tion.net/job/JDA/javadoc/"
       },
       {
-          "name": ["spigot", "spigot-latest", "spigot1165"],
+          "names": ["spigot", "spigot-latest", "spigot1165"],
           "link": "http://mirror:8080/spigot1165/index.html?overview-summary.html",
           "actual_link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html"
       },
