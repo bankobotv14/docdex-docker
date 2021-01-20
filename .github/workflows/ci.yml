@@ -9,6 +9,7 @@ jobs:
   release:
     name: Publish Docker image
     runs-on: ubuntu-latest
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
     steps:
       - uses: actions/checkout@v2
         with:

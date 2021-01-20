@@ -1,3 +1,7 @@
+# docdexdocker
+Docker images for [PiggyPiglet/DocDex](https://github.com/PiggyPiglet/DocDex/)
+DocDex license: https://github.com/PiggyPiglet/DocDex/blob/master/LICENSE.md
+
 # Setup
 - Clone this repo
 - Download Docs and extract them to `doc-mirror/` folder (see [here](#doc-downloads))
