@@ -9,7 +9,8 @@ services:
       - MONGO_INITDB_DATABASE=docdex#
   mirror:
     image: danjellz/http-server
-    volumes: ./doc-mirror:/public
+    volumes: 
+      - ./doc-mirror:/public
   app:
     image: ghcr.io/bankobotv14/docdexdocker:latest
     ports:
