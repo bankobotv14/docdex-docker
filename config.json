@@ -29,12 +29,12 @@
       {
           "names": ["spigot", "spigot-latest", "spigot1165"],
           "link": "http://mirror:8080/spigo-t1165/overview-tree.html",
-          "actual_link": "https://hub.spigotmc.org/javadocs/spigot/index.html?overview-summary.html"
+          "actual_link": "https://hub.spigotmc.org/javadocs/spigot/"
       },
       {
           "names": ["papermc", "paper"],
           "link": "http://mirror:8080/papermc/overview-summary.html",
-          "actual_link": "https://papermc.io/javadocs/paper/1.16/overview-summary.html"
+          "actual_link": "https://papermc.io/javadocs/paper/1.16/"
       }
     ]
   }
