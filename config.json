@@ -28,7 +28,7 @@
       },
       {
           "names": ["spigot", "spigot-latest", "spigot1165"],
-          "link": "http://mirror:8080/spigo-t1165/overview-tree.html",
+          "link": "http://mirror:8080/spigot-1165/overview-tree.html",
           "actual_link": "https://hub.spigotmc.org/javadocs/spigot/"
       },
       {
