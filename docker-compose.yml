@@ -6,7 +6,9 @@ services:
     environment:
       - MONGO_INITDB_ROOT_USERNAME=docdex
       - MONGO_INITDB_ROOT_PASSWORD=DoCdEx
-      - MONGO_INITDB_DATABASE=docdex#
+      - MONGO_INITDB_DATABASE=docdex
+    volumes:
+      ./mongo-data:/data/db
   mirror:
     image: danjellz/http-server
     volumes: 
