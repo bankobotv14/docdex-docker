@@ -33,7 +33,7 @@
       },
       {
           "names": ["papermc", "paper"],
-          "link": "http://mirror/papermc/overview-summary.html",
+          "link": "http://mirror:8080/papermc/overview-summary.html",
           "actual_link": "https://papermc.io/javadocs/paper/1.16/overview-summary.html"
       }
     ]
