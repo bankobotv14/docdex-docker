@@ -19,10 +19,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.WHATEVER }}
         run:  docker login ghcr.io --username phanatic --password "$GITHUB_TOKEN"
       - name: Build & Tag
-        run:  docker build -t ghcr.io/bankobotv14/docdexdocker/docdexdocker:latest -t ghcr.io/bankobotv14/docdexdocker/docdexdocker:"$GITHUB_SHA" .
+        run:  docker build -t ghcr.io/bankobotv14/docdexdocker/docdex:latest -t ghcr.io/bankobotv14/docdexdocker/docdex:"$GITHUB_SHA" .
       - name: Push
-        run:  docker push ghcr.io/bankobotv14/docdexdocker/docdexdocker:latest
+        run:  docker push ghcr.io/bankobotv14/docdexdocker/docdex:latest
       - name: Push specific tag
-        run: docker push ghcr.io/bankobotv14/docdexdocker/docdexdocker:"$GITHUB_SHA"
+        run: docker push ghcr.io/bankobotv14/docdexdocker/docdex:"$GITHUB_SHA"
        
       
