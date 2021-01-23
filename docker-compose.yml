@@ -14,7 +14,7 @@ services:
     volumes: 
       - ./doc-mirror:/public
   app:
-    image: ghcr.io/bankobotv14/docdexdocker:latest
+    image: ghcr.io/bankobotv14/docdexdocker/docdexdocker:latest
     ports:
       - 127.0.0.1:8800:8800
     volumes:
